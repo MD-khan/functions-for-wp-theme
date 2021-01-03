@@ -5,6 +5,5 @@
  */
 function md_get_the_page_url_by_title( $page_title ) {
     $url = get_page_by_title( $page_title ) ?? "Page Name: $page_title Not found";
-        return $url;
     return esc_url( get_permalink( $url->ID ) );
 }
