@@ -1,0 +1,5 @@
+<!-- Make Anroid compatible-->
+    <meta name="theme-color" content="#a61206">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="application-name " content="Boston Pizza">
+    <link rel="icon" type="image/png" href="<?php echo get_template_directory_uri();?>/icon.png" size="192x192">
